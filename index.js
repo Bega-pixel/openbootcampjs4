@@ -6,5 +6,5 @@ const estudianteMinus = estudiante.toLocaleLowerCase;
 const numLetras = estudiante.length();
 const primNom = nombre[0];
 const ultiNom = apellido[-1];
-const espacioEstudiante = estudiante.join();
+let espacioEstudiante = estudiante.join();
 const estudianteNombre = estudiante.includes(nombre);
